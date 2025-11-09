@@ -6,5 +6,6 @@
                         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
     <include file="01-insert-starter-values.sql" author="kyra" context="dev" relativeToChangelogFile="true"/>
+    <include file="02-insert-starter-page.sql" author="kyra" context="dev" relativeToChangelogFile="true"/>
 
 </databaseChangeLog>

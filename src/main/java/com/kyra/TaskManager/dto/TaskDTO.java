@@ -1,8 +1,5 @@
 package com.kyra.TaskManager.dto;
 
-import ch.qos.logback.core.status.Status;
-import com.fasterxml.jackson.databind.PropertyNamingStrategies;
-import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import com.kyra.TaskManager.db.enums.Priority;
 import com.kyra.TaskManager.db.enums.TaskStatus;
 import jakarta.validation.constraints.FutureOrPresent;
@@ -18,7 +15,6 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class TaskDTO {
 
     private Long id;

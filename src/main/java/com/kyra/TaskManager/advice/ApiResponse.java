@@ -3,7 +3,6 @@ package com.kyra.TaskManager.advice;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.CurrentTimestamp;
 
 import java.time.LocalDateTime;
 
